@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 10px;
+}
+
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 3.5px;
+}
+
+.search-wrapper img {
+  position: absolute;
+  left: 4.17%;
+  right: 10.42%;
+  top: 35.17%;
+  bottom: 10.42%;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  position: absolute;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  top: 77px;
+  border: 1px solid #c0c4cc;
+}
+
+.search-input {
+  width: 180px;
+  height: 36px;
+  text-align: center;
+}

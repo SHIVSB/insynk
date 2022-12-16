@@ -1,0 +1,47 @@
+.movies {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.movieswrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+
+@media screen and (max-width: 625px) {
+  .movieswrap {
+    justify-content: center;
+  }
+
+  .movies {
+    display: flex;
+    justify-content: center;
+  }
+
+  .movieheading {
+    justify-content: center;
+  }
+}
+
+.movieheading {
+  position: absolute;
+  width: 269px;
+  height: 22px;
+  top: 114px;
+
+  /* H / H3 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
